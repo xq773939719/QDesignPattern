@@ -3,7 +3,7 @@ package com.q.Create.SimpleFactory;
 import com.q.Delegate;
 
 public class SimpleFactoryMain implements Delegate {
-    public void DO() {
+    public void invoke() {
         System.out.println("1.简单工厂模式 开始");
         SimpleFactory simpleFactory = new SimpleFactory();
         AProduct aProduct = (AProduct) simpleFactory.createProduct(SimpleFactory.PRODUCT_TYPE.A);

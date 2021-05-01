@@ -4,10 +4,10 @@ import com.q.Delegate;
 
 public class AdapterMain implements Delegate {
     @Override
-    public void DO() {
-        System.out.println("6.适配器模式 开始");
+    public void invoke() {
+        System.out.println("7.适配器模式 开始");
         Adapter adapter = new Adapter();
         adapter.method();
-        System.out.println("6.适配器模式 结束");
+        System.out.println("7.适配器模式 结束");
     }
 }

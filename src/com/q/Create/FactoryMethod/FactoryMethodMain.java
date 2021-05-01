@@ -3,7 +3,7 @@ package com.q.Create.FactoryMethod;
 import com.q.Delegate;
 
 public class FactoryMethodMain implements Delegate {
-    public void DO(){
+    public void invoke(){
         System.out.println("2.工厂方法模式 开始");
         AFactory aFactory = new AFactory();
         AProduct aProduct = (AProduct) aFactory.createProduct();
